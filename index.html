@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<title>CSS Template</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="stylesheet.css">
+</head>
+
+<body>
+
+<div class="header">
+  <div class="header-text">
+    <h1>Responsive Website</h1>
+    <h3>An example of a responsive website.</h3>
+  </div>
+</div>
+
+<ul class="navbar">
+  <li><a class="active" href="#">Home</a></li>
+  <li><a href="#">About</a></li>
+  <li><a href="#">Contact</a></li>
+  <li><a href="#">Login</a></li>
+</ul>
+
+<div class="content">
+  <h2>What is this website?</h2>
+
+  <p>This is an example website made using HTML and CSS, created to practice responsiveness – that is, the page works on both large and small screens. If you’re looking at this page on a laptop or desktop, you can test the effect by resizing your browser window.</p>
+
+  <p>The navigation bar above uses floats: at a width greater than 768 pixels (a so-called “typical breakpoint”), all the buttons fall to the left; below this width they stack on top of each other.</p>
+
+  <p>The cards below use flexboxes to achieve the same effect in a different way; again, below 768 pixels, the orientation of their container flips from “row” to “column” (side-by-side to on top of one another).</p>
+  
+  <h2>Github</h2>
+  
+  <p>The secondary function of this website is to practice using Github. Github is a widely-used tool for version control, allowing users to save different versions of their projects, and to restore progress from previously saved backups.</p>
+  
+  <p>Github is also extremely useful for collaboration, allowing users to work on their own "branches" of a project, and subsequently "merge" their changes back into the original. While this project does not make use of this functionality, some future projects will.</p>
+</div>
+
+<div class="row">
+  <div class="flex-item-left">
+    <div class="card">
+	  <img src="img/camera.jpg"></img>
+	  <button class="button-secondary">Details</button>
+	  <h3>POLAROID CAMERA</h3>
+	  <h1>£119.99</h1>
+	  <div class="card-grey">
+	    <p>Point, shoot and keep your everyday moments forever with the Polaroid Supercolor 1000.</p>
+		<p><em>Posted 3 days ago</em></p>
+		<button class="button-primary">Buy now</button>
+		<button class="button-tertiary">Not interested</button>
+	  </div>
+	</div>
+  </div>
+
+  <div class="flex-item-mid">
+    <div class="card">
+	  <img src="img/casette.jpg"></img>
+	  <button class="button-secondary">Details</button>
+	  <h3>CASSETTE PLAYER</h3>
+	  <h1>£49.99</h1>
+	  <div class="card-grey">
+	    <p>Bring your old cassettes back to life with this GPO Retro 162B Portable Cassette Recorder.</p>
+		<p><em>Posted 4 days ago</em></p>
+		<button class="button-primary">Buy now</button>
+		<button class="button-tertiary">Not interested</button>
+	  </div>
+	</div>
+  </div>
+
+  <div class="flex-item-right">
+    <div class="card">
+	  <img src="img/gameboy.jpg"></img>
+	  <button class="button-secondary">Details</button>
+	  <h3>GAMEBOY</h3>
+	  <h1>£64.99</h1>
+	  <div class="card-grey">
+	    <p>This is a Pre-Played Blue Original Nintendo GameBoy 1st Generation (Model DMG -01).</p>
+		<p><em>Posted 8 days ago</em></p>
+		<button class="button-primary">Buy now</button>
+		<button class="button-tertiary">Not interested</button>
+	  </div>
+	</div>
+  </div>
+</div>
+
+<div class="footer">
+  <p>&#169;	2022</p>
+</div>
+
+</body>
+
+</html>
